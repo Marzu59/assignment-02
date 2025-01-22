@@ -3,6 +3,8 @@
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+
+  /* background-color: FFFFFF; */
 }
 
 
@@ -29,6 +31,8 @@ li{
    
 }
 .nav{ display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
     
     
     
@@ -72,6 +76,73 @@ li{
 
 
 
+.first-tittle{
+    font-size: 56px;
+
+}
+.orange{
+    color: orange;
+}
+.black{
+    color: black;
+}
+.sky-blue{
+    color: skyblue;
+}
+.discription{
+    font-size: 20px;
+}
+
+
+body {
+    background-image: url(/B11-A2-Kids-School-main/B11-A2-Kids-School-main/assets/bg.png);
+}
+
+.btn-primary{
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 47px;
+    border-radius: 8px;
+}
+.hed-img{
+
+    display: flex;
+    margin-left: 129px;
+    gap: 50px;
+
+
+}
+
+.tittle{
+    width: 640px;
+    height: 331px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -92,7 +163,7 @@ li{
 @media screen and (max-width: 576px) {
     .togglebar{
         display: block;
-        margin-left: 55%;
+        margin-left: 70%;
         
         
         
@@ -105,6 +176,7 @@ li{
     
     .nav{
         align-items: center;
+        margin-left: 50px;
        
         
     }
@@ -114,16 +186,37 @@ li{
         position: sticky;   
         background-color: white;
         width: 100%;
-        border-bottom: 2px solid orange;
+        border-bottom: 1px solid orange;
 
     }
     body{
         margin: 0;
     }
+    .hed-img{
+  
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr) ;
+        grid-template-areas: "colum2"
+                              "colum1"
+        ;
+    }
+    .colum1{
+        grid-area: colum1;
+    }
+    .colum2{
+        grid-area: colum2;
+    }
+    
+.tittle{
+    width: 357px;
+    height: 252px;
+}
+section div img{
+    width: 337px;
+    height: 413px;
 }
 
-
-
+}
 
 
 
