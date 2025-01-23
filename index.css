@@ -218,13 +218,13 @@ body {
     
     display: flex;
     gap: 18px;
-    background: linear-gradient(45deg, #c7830e , #FFFFFF );
+    background: linear-gradient(360deg, #c7830e , #FFFFFF );
     
 }
 .november1{
     margin-left: 150px;
     width: 541px;
-    height: 630px;
+    height: 600px;
     border-radius: 16px;
     background-color: #FFFFFF;
     
@@ -265,9 +265,9 @@ grid-template-columns: repeat(2, 1fr);
 
 .november2{
     width: 291px;
-    height: 301px;
+    height: 292px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .outer{
@@ -289,8 +289,8 @@ grid-template-columns: repeat(2, 1fr);
 }
 .n2, .n3, .n4 , .n5{
     text-align: center;
-}
 
+}
 
 .box-4{
     gap: 20px;
@@ -302,17 +302,38 @@ grid-template-columns: repeat(2, 1fr);
 
 .bpd{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #c7830e;
+  
+    
+}
+
+
+body{
+
+}
+main{
+   
 }
 .bg{
     background-color: #01ACFD;
 }
 .kids{
-    display: flex;
+    
     align-items: center;
+   
+    
+    
 
 }
+.overloded-div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
 .whi{
     font-size: 42px;
     color: white;
@@ -325,20 +346,35 @@ grid-template-columns: repeat(2, 1fr);
 .school{
     color: white;
     font-size: 30px;
+    
 }
-div ul li{
+div  li{
     color: white;
     font-size: 20px;
 }
+.ab{
+    margin-left: 3px;
+}
+
+.sch{
+    font-size: 23px;  
+    color: white;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    
+   
+}
 
 
-
-
-
-
-
-
-
+.social{
+    margin-right: 0;
+}
 
 
 
@@ -352,7 +388,7 @@ div ul li{
 @media screen and (max-width: 576px) {
     .togglebar{
         display: block;
-        margin-left: 350px;
+        margin-left: 250px;
         
         
         
@@ -379,6 +415,7 @@ div ul li{
         
         border-bottom: 1px solid orange;
 
+        
     }
     body{
         margin: 0;
@@ -440,7 +477,7 @@ section div img{
 }
 
 .school{
-    display: none;
+    
 }
 
 .header .nav img{ 
@@ -531,6 +568,29 @@ height: 130px;
     border-radius: 15px;
     
 }
+.bg{
+  display: grid; 
+     grid-template-columns: repeat(1, 1fr); 
+     padding-left: 20px;
+
+
+
+
+
+
+}
+
+.kids{
+    
+}
+
+.school{ 
+
+}
+
+
+
+
 
 
 }
